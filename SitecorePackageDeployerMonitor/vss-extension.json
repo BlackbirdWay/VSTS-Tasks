@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "Sitecore-Package-Deployer-Monitor",
   "name": "Sitecore Package Deployer Monitor",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "publisher": "josearivera",
   "public": false,
   "targets": [
@@ -15,7 +15,8 @@
     "Build and release"
   ],
   "icons": {
-    "default": "icon.png"
+    "default": "icon.svg",
+    "large": "icon.svg"
   },
   "tags": [
     "sitecore",

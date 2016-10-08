@@ -7,7 +7,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>MyApplication</RootNamespace>
     <AssemblyName>MyApplication</AssemblyName>
-    <Name>SitecorePackageDeployerMonitor</Name>
+    <Name>VSTS-Tasks</Name>
     <SccProjectName>
     </SccProjectName>
     <SccProvider>
@@ -16,6 +16,7 @@
     </SccAuxPath>
     <SccLocalPath>
     </SccLocalPath>
+    <ProjectHome />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -36,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="icon.png" />
+    <Compile Include="icon.svg" />
     <Compile Include="SitecorePackageDeployerMonitor\SitecorePackageDeployerMonitorJob.ps1" />
     <Compile Include="SitecorePackageDeployerMonitor\Strings\en-US\resources.resjson" />
     <Compile Include="SitecorePackageDeployerMonitor\SitecorePackageDeployerMonitor.ps1" />
