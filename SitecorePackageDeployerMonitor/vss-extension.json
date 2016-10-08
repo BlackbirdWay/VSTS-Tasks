@@ -1,0 +1,57 @@
+{
+  "manifestVersion": 1,
+  "id": "Sitecore-Package-Deployer-Monitor",
+  "name": "Sitecore Package Deployer Monitor",
+  "version": "1.0.6",
+  "publisher": "josearivera",
+  "public": false,
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "Monitor the Sitecore Package Deployer installation status.",
+  "categories": [
+    "Build and release"
+  ],
+  "icons": {
+    "default": "icon.png"
+  },
+  "tags": [
+    "sitecore",
+    "package",
+    "deployer",
+    "monitor"
+  ],
+  "content": {
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "links": {
+    "home": {
+      "uri": "https://marketplace.visualstudio.com/items?itemName=josearivera.Sitecore-Package-Deployer-Monitor"
+    }
+  },
+  "files": [
+    {
+      "path": "SitecorePackageDeployerMonitor"
+    }
+  ],
+  "scopes": [
+    "vso.build",
+    "vso.build_execute"
+  ],
+  "contributions": [
+    {
+      "id": "Sitecore-Package-Deployer-Monitor-1",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "SitecorePackageDeployerMonitor"
+      }
+    }
+  ]
+}
