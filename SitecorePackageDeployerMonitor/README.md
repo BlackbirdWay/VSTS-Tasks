@@ -1,4 +1,4 @@
-# ![alt text](https://github.com/BlackbirdWay/VSTS-Tasks/blob/master/SitecorePackageDeployerMonitor/icon.svg "Sitecore Package Deployer Monitor Task") Sitecore Package Deployer Monitor Task
+# ![alt text](https://github.com/BlackbirdWay/VSTS-Tasks/blob/master/SitecorePackageDeployerMonitor/icon.png "Sitecore Package Deployer Monitor Task") Sitecore Package Deployer Monitor Task
 
 ### Overview
 This Visual Studio Team Setvice (VSTS) Custom Build Task is used to monitor for **Team Development for Sitecore** (TDS) update package .json notification files. They are deposited in the **Sitecore Package Deployer** folder on the Windows Machine(s) hosting **Sitecore** instance(s). This task provides the ability to monitor TDS .json notification files on Windows Machines. The task uses PowerShell and WinRM to monitor the package insatallation status.
