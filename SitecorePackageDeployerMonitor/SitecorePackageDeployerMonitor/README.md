@@ -4,12 +4,12 @@ This Visual Studio Team Setvice (VSTS) Custom Build Task is used to monitor for 
 
 ###The different parameters of the task are explained below:
 
-*	**Source**: The source of the files. As described above using pre-defined system variables like $(Build.Repository.LocalPath) make it easy to specify the location of the build on the Build Automation Agent machine. The variables resolve to the working folder on the agent machine, when the task is run on it. Wild cards like **\*.zip are not supported.
+* **Source**: The source of the files. As described above using pre-defined system variables like $(Build.Repository.LocalPath) make it easy to specify the location of the build on the Build Automation Agent machine. The variables resolve to the working folder on the agent machine, when the task is run on it. Wild cards like **\*.zip are not supported.
 * **Machines**: Specify comma separated list of machine FQDNs/ip addresses along with port(optional). For example scserver.ascii63software.com, scserver_int.ascii63software.com:5986,192.168.01.01:5986.  
 * **Admin Login**: Domain/Local administrator of the target host. Format: &lt;Domain or hostname&gt;\&lt; Admin User&gt;.  
 * **Password**:  Password for the admin login. It can accept variable defined in Build/Release definitions as '$(passwordVariable)'. You may mark variable type as 'secret' to secure it.  
-*	**Destination Folder**: The folder in the Windows machines where the files will be monitored. An example of the destination folder is C:\Sites\Sitecore\Data\SitecorePackageDeployer.
-*	**Clean Target**: Checking this option will clean the destination folder prior to monitoring the files in it.
+* **Destination Folder**: The folder in the Windows machines where the files will be monitored. An example of the destination folder is C:\Sites\Sitecore\Data\SitecorePackageDeployer.
+* **Clean Target**: Checking this option will clean the destination folder prior to monitoring the files in it.
 
 ###Installing Task
 
