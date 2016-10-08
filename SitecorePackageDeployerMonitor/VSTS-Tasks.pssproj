@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="overview.md" />
+    <Content Include="SitecorePackageDeployerMonitor\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
